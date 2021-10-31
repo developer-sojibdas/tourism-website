@@ -67,6 +67,8 @@ try{
         res.json(result)
 
     })
+    
+    //
 
     //delete api
     app.delete('/booking/:id', async(req, res)=>{
